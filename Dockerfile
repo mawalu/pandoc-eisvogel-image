@@ -21,7 +21,8 @@ RUN wget https://github.com/jgm/pandoc/releases/download/${pandoc_version}/pando
     texmf-dist-bibtexextra \
     texmf-dist-fontsextra \
     texmf-dist-lang \
-    texmf-dist-latexextra
+    texmf-dist-latexextra \
+    librsvg
 
 FROM pandoc AS eisvogel
 
